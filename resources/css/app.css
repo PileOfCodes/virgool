@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: IRS;
+	font-style: normal;
+	font-weight: 100;
+	src: url('./fonts/woff/IRANSansX-Regular.woff') format('woff'),   
+	url('./fonts/woff2/IRANSansX-Regular.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: IRSThin;
+	font-style: normal;
+	font-weight: 100;
+	src: url('./fonts/woff/IRANSansX-Thin.woff') format('woff'),   
+	url('./fonts/woff2/IRANSansX-Thin.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: IRANSansXFaNum;
+	font-style: normal;
+	font-weight: 500;
+	src: url('./fonts/woff/IRANSansXFaNum-Medium.woff') format('woff'),   
+	url('./fonts/woff2/IRANSansXFaNum-Medium.woff2') format('woff2');		
+}
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    font-family: IRS !important;
+    font-family: IRANSansXFaNum !important;
+}
+
